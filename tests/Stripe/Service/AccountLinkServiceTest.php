@@ -33,8 +33,8 @@ final class AccountLinkServiceTest extends \PHPUnit\Framework\TestCase
         );
         $resource = $this->service->create([
             'account' => 'acct_123',
-            'failure_url' => 'https://stripe.com/failure',
-            'success_url' => 'https://stripe.com/success',
+            'refresh_url' => 'https://stripe.com/failure',
+            'return_url' => 'https://stripe.com/success',
             'type' => 'custom_account_verification',
         ]);
         static::assertInstanceOf(\Stripe\AccountLink::class, $resource);

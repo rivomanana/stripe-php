@@ -1,6 +1,6 @@
 {
-  "name": "stripe/stripe-php",
-  "description": "Stripe PHP Library",
+  "name": "rivomanana/stripe-php",
+  "description": "Stripe PHP Library ",
   "keywords": [
     "stripe",
     "payment processing",
